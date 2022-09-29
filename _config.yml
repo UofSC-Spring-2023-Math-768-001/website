@@ -13,28 +13,28 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Math 300 
-tagline: Transition to Advanced Mathematics
-honors: true
-description: Thinking and communicating like a mathematician. 
+title: Math 768 
+tagline: Formalization of mathematics 
+honors: false
+description: Using Lean to prove things. 
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://300.f22.matthewrobertballard.com' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://768.s23.matthewrobertballard.com' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 # logo: '/assets/images/beta.png'
 
 # pdf2svg: '/opt/homebrew/bin/pdf2svg' 
 # destination: '../UofSC-Spring-2022-Math-300-H01.github.io'
 
-term: Fall
-year: 2022
+term: Spring
+year: 2023
 meeting_time: Mondays, Wednesdays, and Fridays 8:30-9:45 AM
-meeting_location: LeConte College Room 348
+meeting_location: TBD
 office : LeConte College Room 341
 office_hours: TBD
-bulletin_desc: Rigor of mathematical thinking and proof writing via logic, sets, and functions. Intended to bridge the gap between lower-level (computational-based) and upper-level (proof-based) mathematics courses.
-prereqs: C or better in MATH 142, or consent of the Undergraduate Director
+bulletin_desc: Course content varies and will be announced in the schedule of classes by title. All non-degree students should request permission to register from the Graduate Director in the Mathematics Department.
+prereqs: None
 
-textbook: 
+textbook: Theorem Proving in Lean.  
 
 teams_url: 
 github_org: 

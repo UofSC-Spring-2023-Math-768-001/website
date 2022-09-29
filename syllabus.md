@@ -54,17 +54,15 @@ nav_order: 5
 
 ## Full Course Description 
 
-Figure out all values of $x,y,z$ that solve the equations
- $$ 
-    5x - 2y + z = 1 \\
-    -x + y - 3z = 0 \\
-    2x - y + z = -1 
- $$
-The most direct attack would perhaps be to repeatedly substitute and simplify to reach only a single variable equation. Are there easier ways? More efficient ways? What if we had 256 equations and 128 variables? 
+Since the AutoMath project of the 1960s, mathematicians have envisioned
+computer-readable mathematics. Today, an interested graduate student can pick
+up a theorem prover and begin creating digital mathematics at the level of
+current research. 
 
-In this class, we study the structure of linear equations from both very concrete and mildly abstract perspectives. We will develop tools that allow us to both gain a conceptual understanding of systems of linear equations and underpin robust computational tools. 
-
-Our pen, paper, and mental work will be supplemented with a working knowledge of [Sage](https://www.sagemath.org/). 
+In this course, students will be introduced to the Lean Theorem Prover and its
+mathematical library, mathlib. By tackling example mathematical problems,
+students will gain confront with these tools and learn about the type theory
+underpinning them.
  
 ## Prerequisites 
 
@@ -74,14 +72,8 @@ Our pen, paper, and mental work will be supplemented with a working knowledge of
 
 After successful completion of this course, you will be able to: 
 
-- Determine the complete solution to $Ax = b$
-- Relate linear transformations, matrices, and change of basis
-- Recognize linearly dependent and independent collections of vectors
-- Compute bases and dimensions of vector spaces
-- Orthogonalize vectors using Gram-Schmidt
-- Know and use the properties of determinants
-- Compute eigenvalues and eigenvectors
-- Appreciate the ubiquity of linear algebra across science
+- Understand the uses of theorem provers
+- Use Lean and mathlib to state and prove mathematical results 
 
 ## Course Materials 
 
@@ -126,22 +118,11 @@ To participate in learning activities and complete assignments, you will need:
 
 - Reliable Internet access and a USC email account; 
 
-- If you plan to submit handwritten assignments, a scanning device such as a smartphone with the Microsoft Office Lens app.  
-
-- The main hub for this course is the Microsoft Teams[team]({{ site.teams_url }}) run through UofSC’s Microsoft Teams account. To access the team for the first time on your desktop/laptop, you can use the join link including in your welcome email.   
-
-- We will be using a computer algebra system called [Sage](https://www.sagemath.org/) to aid our learning. It blows your graphing calculator out of the water and is ideally suited to STEM work. Built as a super-set of the popular programming language [Python](https://www.python.org/), Sage skills will translate into Python skills. There are three main ways to access Sage: 
-    - [SageMathCell](https://sagecell.sagemath.org/) is ideal for a computation involving a few lines. 
-    - [CoCalc](https://www.cocalc.com/) provides a free plan for more complicted porgrams. 
-    - [A local installation](http://doc.sagemath.org/html/en/installation/binary.html) will never be required of anyone. But, it might be valuable for a power-user. 
- 
 ## Minimal Technical Skills Needed  
 
 Minimal technical skills are needed in this course. All work in this course must be completed and submitted online. Therefore, you must have consistent and reliable access to a computer and the Internet. The minimal technical skills you have include the ability to: 
 
 - Organize and save electronic files; 
-
-- Check and use the Microsoft Teams site daily; 
 
 - Download and upload documents; 
 
@@ -155,19 +136,12 @@ If you have problems with your computer, technology, IT-related questions, suppo
 
 ## Homework	 
 
-Homework will need to be completed in groups of 3-4 that will be randomly assigned each week. The assignments will be available in and must be returned through Microsoft Teams. All homework assignments are due by 11:59 pm (Eastern Time) on the day indicated on the course schedule. Homework will be graded for correctness. You will be allowed up to two revisions on each homework assignment. 
+There will be weekly projects covering differentl mathematical topics and different aspects of Lean and mathlib. These 
+can be completed in groups. Solutions will be presented weekly. 
 
-## Quizzes 
+## Final Project 
 
-Each course will end with a short quiz. The goal of the quiz is to diagnose any gaps in the understanding and make sure we all stay on the same page. Quizzes are graded for correctness. You will be allowed up to two revisions on each quiz. 
-
-## Presentations 
-
-All students are expected to regularly present solutions to in-class work group problems. Your target should be to present one solution every two weeks. Presentations are graded simply for completion. If you attempt it, it counts. 
-
-## Project 
-
-A list of project topics will be released on October 1. These can be done in groups of 1-4 of your own choosing. Projects are due by December 9 at 9:00 am (EST). 
+Students will complete a project developing some mathematics in Lean. 
 
 ## Evaluation and Grading Scale 
 
@@ -177,10 +151,9 @@ All grades will be posted on Teams. You are strongly encouraged to check you sco
 
 | Component     | Percent of total      |
 | :---------:   | :---------:    |
-| Homework      |      25%       |
-| Quizzes       |      25%       |
-| Presentations |      25%       |
-| Project       |      25%       |
+| Attendance 	|     33% 	|
+| Homework      |      33%       |
+| Final Project       |      33%       |
 
 ### Grading Scale 
 
@@ -197,15 +170,8 @@ All grades will be posted on Teams. You are strongly encouraged to check you sco
 
 ## Assignment Submission 
 
-All written assignments are required to be submitted through Teams. Unless otherwise specified in the problem, you will be able to enter text directly through Teams or upload a scan of handwritten work. If you choose to upload a scan, then  
+All written assignments are required to be submitted through GitHub. 
 
-- the handwriting must be clear and legible – otherwise you will receive no credit 
-
-- you will need to use the Office 365 Lens app to scan and upload you work to your university OneDrive account before attaching to the assignment. No HEIC extensions are allowed.    
-
-## Revisions 
-
-All homework turned in on-time is eligible for revision at full credit. All quizzes taken on-time are eligible for revision at full credit. Each assignment can undergo at most two revisions. Revisions must be resubmitted within one week of receiving a marked assignment or revision.
 
 # Academic Success 
 
@@ -247,40 +213,13 @@ The University offers [counseling and crisis services](https://sc.edu/about/offi
 
 # Course Policies and Procedures 
 
-## Attendance Policy and COVID Reporting 
+## Attendance Policy 
 
 You are expected to participate actively in each course. If you anticipate an excused absence, you need to contact me in advance. You should submit a request in writing (email is acceptable) stating the dates of the anticipated absence, explaining the reason for absence, providing supporting documentation as required above, and including any request for make-up work. You should submit this request no later than the end of the second week of regularly scheduled classes in a full fall or spring semester term and within twice the length of the drop/add period for any other term. 
 
 If regularly attending class becomes difficult for any reason, please contact me to discuss the issue.  
 
 In accordance with [university policy](https://sc.edu/about/offices_and_divisions/faculty_senate/faculty-toolbox/documents/attendance_policy_approved_for_21_22.pdf), a grade penalty of 10% may be imposed if a student has unexcused absensces exceeding 5% of the total number of courses. For this course, that means missing TWO courses without excuse. 
-
-All absences due to documented illness or quarantine will be excused, and no grade penalty will be assessed for missing classes for this reason. If you experience COVID-19 symptoms, please stay home, contact the COVID-19 Student Health Services (SHS) nurse line (803-576-8511), complete the COVID-19 Student Report Form and select the option allowing the Student Ombuds to contact your professors. When talking with the SHS nurse, be sure to ask for documentation of the consult as you will need this to document why you missed class. You will also use the COVID-19 Student Report Form if you have tested positive for COVID-19 or if you have been ordered to quarantine because of close contact with a person who was COVID-19 positive. In each of these situations you will be provided appropriate documentation that can be shared through the Student Report Form. 
-
-## COVID Policies 
-
-As of 8/17/2021, UofSC requires face coverings, including in the class. For more information on this semester's COVID policies see the [guidance](https://sc.edu/about/offices_and_divisions/provost/academicpriorities/keepteaching/guidance/index.php) from the Provost. 
-
-**I strongly encourage getting vaccinated**. 
-
-**I encourage physical distancing**. While not always possible, I will strive to keep everyone at least three feet apart, even when working in groups, which we will do regularly. If you feel uncomfortable with group work in my class, please come talk with me and I don’t mind letting you work independently at all.
-
-**I have been requested to keep a seating chart**. I have been urged to keep this seating chart for contact tracing purposes and will do my best to abide by the University policy.
-
-### Questions You May Have
-**What if I get sick with COVID?** Two things have to occur: Isolation: Students who have been diagnosed with COVID-19 are released from isolation when a medical professional has determined, based on the current CDC and DHEC guidelines, that they have recovered. Currently, these guidelines include being fever-free for at least 24 hours and at least 10 days from their first symptom or positive test if they are asymptomatic. Quarantine: Unvaccinated students who are deemed a close contact with a confirmed COVID-19 case will be quarantined for 7-14 days from their last contact with the infected individual. More specifically, students who test negative on day 5, 6, or 7 can leave quarantine after 7 full days; individuals who did not test but remain asymptomatic can leave after 10 full days. Individuals who are symptomatic or have other health concerns may be advised to remain under quarantine for 14 days. 
-
-**What is the attendance policy if I get COVID?** In brief, I must provide make-up course work including content and assignments when students have excused absences which include (but are not limited to) being in quarantine or isolation, religious holidays, medical conditions related to pregnancy, and military duty. However, recorded classes and hybrid/online options are not required and should not be expected. All excused absences must have documentation.  See syllabus for further attendance policies.
-
-**How will the Dr. Ballard know if I am absent due to quarantine or isolation?** COVID-19 related absences must be document through the Student Ombudsman.  Students who have been diagnosed with COVID-19 or have been exposed and require quarantining should complete the COVID-19 Student Report Form and instructors should request this form in order to excuse the absence. 
-
-**Can I inquire about classmates condition with COVID?** Sadly, not with me. These are health issues and the information is protected by state and federal law. If an individual student has questions about whether they should quarantine or believe that they have been in close contact, have them reach out to the COVID Phone Bank (803-576-8511).
-
-**Would we ever change to go online if too many people are sick?** Only in the rare instance that 30% or more of students have documented excused absences may I take the course online. This is not to be expected and very complicated according to the current policies. 
-
-**What if Dr. Ballard gets sick with COVID?** I have been fully vaccinated and breakthrough infection symptoms most often resemble the common cold. In the event of a breakthrough infection, I will enter the self-isolation period and the course will switch modality to synchronous online temporarily. 
-
-In the rare circumstance I am unable to teach remotely, a substitute instructor will take over the course. 
 
 ## Academic Integrity 
 
@@ -375,62 +314,58 @@ Course materials that do not appear on this website are copyright &copy; {{ site
 This is the (ambitious) plan for the semester. But it is only a plan. The successful progression of each student is the most important guide to through the material. As such, you should expect revisions as we go. 
 
 ## Week 1
-- 8/19 welcome and orientation
+- 1/10 Getting used to GitHub
+- 1/12 Getting used to Lean and Mathlib
 
 ## Week 2
-- 8/24 addition and multiplication of matrices and vectors
-- 8/26 solving linear systems: row reduction 
+- 1/17 Logic
+- 1/19 Logic
 
 ## Week 3
-- 8/31 row echelon form and LU decompositions  
-- 9/2 geometry and solvability of linear systems 
+- 1/24 Groups
+- 1/26 Groups
 
 ## Week 4
-- 9/7 ranges and null spaces of matrices - implicit and parametric representations
-- 9/9 linear dependence and spans of collections of vectors - dimensions and bases
+- 1/31 Graphs
+- 2/2 Graphs
 
 ## Week 5
-- 9/14 row rank, column rank  
-- 9/16 invertibility 
+- 2/7 Analysis 
+- 2/9 Analysis 
 
 ## Week 6
-- 9/21 vector spaces
-- 9/23 subspaces
+- 2/14 Topology 
+- 2/16 Topology
 
 ## Week 7
-- 9/28 bases again
-- 9/30 linear transformations 
+- 2/21 Number theory 
+- 2/23 Number theory 
 
 ## Week 8
-- 10/5 kernels and images
+- 2/28 Category theory
+- 3/2 Category theory
 
 ## Week 9
-- 10/12 isomorphisms 
-- 10/14 determinants: the idea
+- 3/14 Geometry
+- 3/16 Geometry
 
 ## Week 10
-- 10/19 determinants: computations
-- 10/21 the complex number system
+- 3/21 Algebraic geometry
+- 3/23 Algebraic geometry
 
 ## Week 11
-- 10/26 eigenvalues and eigenvectors 1
-- 10/28 eigenvalues and eigenvectors 2
+- 3/28 Probability
+- 3/30 Probability
 
 ## Week 12
-- 11/2 symmetric matrices
-- 11/4 positive definite matrices 
+- 4/4 Homological algebra
+- 4/6 Homological algebra
 
 ## Week 13
-- 11/9 diagonalizability
-- 11/11 diagonalizability 2 
+- 4/11 Dynamics
+- 4/13 Dynamics
 
 ## Week 14
-- 11/16 orthogonality and projections
-- 11/18 least squares approximations
+- 4/18 Representation theory
+- 4/20 Representation theory
 
-## Week 15
-- 11/23 gram-schmidt and QR factorization
-
-## Week 16 
-- 11/30 singular value decomposition
-- 12/2 selected applications 
